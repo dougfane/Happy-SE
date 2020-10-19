@@ -36,7 +36,8 @@ aside.sidebar footer button:hover {
 }
 
 main {
-    flex:1;
+    align-self: center;
+    margin: auto;
 }
 
 /* details */
