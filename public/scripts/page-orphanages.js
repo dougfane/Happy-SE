@@ -21,7 +21,7 @@ const popup = L.popup({
     minWidth: 240,
     minHeight: 240
 }).setContent(`Oratório de Bebé
-<a href='orphanages.html?id=1'class='choose-orphanages'>
+<a href='orphanage.html?id=1'class='choose-orphanages'>
     <img src='./public/images/arrow-white.svg'>
 </a>`)
 
