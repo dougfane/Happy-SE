@@ -25,3 +25,11 @@ const icon = L.icon({
 //create and add marker
 L.marker([-10.9684256,-37.0833271], {icon})
     .addTo(map)
+
+/* image gallery */
+function selectImage(event) {
+    const button = event.currentTarget
+    const buttons = document.querySelectorAll(".images button")
+    buttons.forEach(function (button) {button.classList.remove("active")})
+    button.classList.add("active")
+} 
